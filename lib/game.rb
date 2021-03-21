@@ -13,6 +13,6 @@ class Game
   [6,4,2] # right_diagonal
   ]
 
-  
+
 
 end #end class
