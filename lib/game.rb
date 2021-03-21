@@ -13,7 +13,8 @@ class Game
   [6,4,2] # right_diagonal
   ]
 
-  def initialize(board, player_1, player_2)
+  def initialize(board, player_1 = "X", player_2 = "O")
+    @board = []
   end
 
 
