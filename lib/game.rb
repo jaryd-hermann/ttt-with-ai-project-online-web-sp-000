@@ -41,6 +41,10 @@ class Game
 
   def turn
 
-  end 
+  end
+
+  def play
+
+  end
 
 end #end class
