@@ -40,7 +40,7 @@ class Game
   end
 
   def over?
-    false unless @board.draw? || @board.won?
+  (won? || draw?) ? true : false
 
   end
 
