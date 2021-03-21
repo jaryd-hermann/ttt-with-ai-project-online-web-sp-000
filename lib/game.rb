@@ -1,6 +1,7 @@
 class Game
   attr_accessor :board, :player_1, :player_2
-  
+
+  #defines a constant WIN_COMBINATIONS with arrays for each win combination
   WIN_COMBINATIONS = [
   [0,1,2], # top_row
   [3,4,5], # middle_row
@@ -12,5 +13,6 @@ class Game
   [6,4,2] # right_diagonal
   ]
 
+  
 
 end #end class
