@@ -8,5 +8,6 @@ module Players
     def move(board)
       input = gets.strip
     end
-  end
-end
+    
+  end #end class
+end #end module
