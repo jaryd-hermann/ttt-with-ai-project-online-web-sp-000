@@ -13,9 +13,11 @@ class Game
   [6,4,2] # right_diagonal
   ]
 
-  def initialize(board, player_1 = "X", player_2 = "O")
-    @board = []
-  end
+  def initialize(player_1=Players::Human.new("X"), player_2=Players::Human.new("O"), board=Board.new)
+      @player_1 = player_1
+      @player_2 = player_2
+      @board = board
+    end
 
 
 end #end class
