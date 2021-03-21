@@ -9,7 +9,7 @@ class Board
 
   def initialize
     # sets the cells of the board to a 9 element array of " "
-    self.reset!
+    reset!
   end
 
   def display
