@@ -20,6 +20,27 @@ class Game
   end
 
   def current_player
+  board.turn_count.odd? ? player_2 : player_1
   end
+
+  def won?
+
+  end
+
+  def draw?
+
+  end
+
+  def over?
+
+  end
+
+  def winner
+
+  end
+
+  def turn
+
+  end 
 
 end #end class
